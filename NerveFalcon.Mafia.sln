@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerveFalcon.Mafia", "NerveFalcon.Mafia\NerveFalcon.Mafia.csproj", "{53F08935-1947-4262-8530-B128E0FBA9BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play", "Play\Play.csproj", "{E80CB0C0-A3E7-42CE-9AA0-ECE70D66D9DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{53F08935-1947-4262-8530-B128E0FBA9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F08935-1947-4262-8530-B128E0FBA9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F08935-1947-4262-8530-B128E0FBA9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80CB0C0-A3E7-42CE-9AA0-ECE70D66D9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80CB0C0-A3E7-42CE-9AA0-ECE70D66D9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80CB0C0-A3E7-42CE-9AA0-ECE70D66D9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80CB0C0-A3E7-42CE-9AA0-ECE70D66D9DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

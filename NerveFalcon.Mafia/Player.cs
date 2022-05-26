@@ -2,17 +2,17 @@
 
 public class Player
 {
-	public Player( string title, Card card )
+	public Player( string name, Card card )
 	{
-		Title   = title;
+		Name   = name;
 		Card    = card;
 		Status  = Status.WokeUp;
 		Impacts = new List<Impact>();
 		Fingers = new List<Player>();
 	}
 
-	public string              Title   { get; }
-	public Card                Card    { get; }
+	public string              Name    { get; }
+	public Card                Card    { get; private set; }
 	public Status              Status  { get; private set; }
 	public Player?             Choice  { get; private set; }
 	public IEnumerable<Impact> Impacts { get; }
@@ -28,5 +28,10 @@ public class Player
 	public void FallAsleep()
 	{
 		Status = Status.Asleep;
+	}
+
+	public void SetCard( Card card )
+	{
+		Card = card;
 	}
 }
